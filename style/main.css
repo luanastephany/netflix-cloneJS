@@ -32,7 +32,7 @@ header .logo {
 header nav a {
   text-decoration: none;
   color: #AAA;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 header nav a:hover {
@@ -46,7 +46,7 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.5)100%), url('/img/capa-greys.jpg');
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.5)100%), url('/img/capa-breakingbad.jpg');
   height: 400px;
   background-size: cover;
 }
@@ -71,6 +71,7 @@ header nav a:hover {
   margin-bottom: 50px;
   margin-top: 15px;
   font-family: 'Roboto', sans-serif;
+  line-height: 25px;
 }
 
 .botoes {
@@ -100,3 +101,19 @@ header nav a:hover {
 }
 
 
+/*----------MINI IMAGENS---------*/
+
+.carrossel-filmes {
+  margin-top: 5px;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.box-filme:hover {
+  transform: scale(1.1)
+}
