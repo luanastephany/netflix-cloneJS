@@ -46,7 +46,7 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.5)100%), url('/img/capa-breakingbad.jpg');
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.5)100%), url('/img/capa-gow.jpg');
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
