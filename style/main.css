@@ -49,6 +49,7 @@ header nav a:hover {
   background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.5)100%), url('/img/capa-breakingbad.jpg');
   height: 400px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -107,11 +108,17 @@ header nav a:hover {
   margin-top: 5px;
 }
 
+.carrossel-filmes .item {
+  height: 300px;
+  width: 290px;
+}
+
 .box-filme {
   height: 100%;
   width: 100%;
   display: block;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .box-filme:hover {
